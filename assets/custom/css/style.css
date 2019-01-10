@@ -1,0 +1,222 @@
+body, html, a {
+    color: #2C3E50 !important;
+    font-family: 'Quicksand Light';
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Test stuff */
+.border-test {
+    border: 1px solid red;
+}
+
+.btn-success {
+    background-color: #1ABC9C ;
+}
+
+.btn-success:hover {
+    background-color: #F1C40F;
+    border: 1px solid #F1C40F;
+}
+
+.btn a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.img-custom {
+    width: 250px;
+    height: 200px;
+}
+
+/* Navigation */
+.bg-light {
+    font-size: 17px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+}
+
+.custom-mb {
+    margin-bottom: 25px;
+}
+
+.no-resize {
+    resize: none;
+    overflow-y: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.max-width {
+    width: 87% !important;
+}
+
+.search {
+    height: 50px;
+    border: solid 1px #e5e5e5;
+    border-right: none;
+    border-radius: 5px;
+}
+
+.search_button {
+    height: 50px;
+    border-color: #e5e5e5;
+    border-left: none;
+    margin-left: -12px;
+}
+
+.sale {
+    color: #900;
+    text-decoration: line-through;
+}
+
+/* Footer */
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    border-top: solid 1px rgba(0, 0, 0, 0.05);
+    background: #f8f9fa !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#2C3E50;
+}
+#footer a {
+    color: #2C3E50;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#2C3E50;
+}
+#footer ul.social li a:hover{
+	color:#2C3E50;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* Login */
+#login {
+    padding-top: 50px
+}
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 13px;
+	text-align: center;
+	display: block;
+}
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff !important;
+	background-color: #1fa67b;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
